@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jack - personal portfolio</title>
+  <title>TomyJan 的作品集</title>
 
   <!-- 
     - favicon
@@ -23,8 +23,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
-    rel="stylesheet">
+    rel="stylesheet"
+    crossorigin="anonymous"
+    href="https://cdn.jsdelivr.net/npm/misans@4.0.0/lib/Normal/MiSans-Medium.min.css"
+  />
 </head>
 
 <body id="top" class="dark_theme">
@@ -37,17 +39,17 @@
     <div class="container">
 
       <h1 class="h1 logo">
-        <a href="#">Jack<span>.</span></a>
+        <a href="#">TomyJan <span>作品集</span></a>
       </h1>
 
       <div class="navbar-actions">
 
-        <select name="language" id="lang">
+        <!-- <select name="language" id="lang">
           <option value="en">En</option>
           <option value="ar">Ar</option>
-        </select>
+        </select> -->
 
-        <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn>
+        <button class="theme-btn" aria-label="切换主题" title="切换主题" data-theme-btn>
           <span class="icon"></span>
         </button>
 
@@ -62,25 +64,25 @@
       <nav class="navbar" data-navbar>
         <ul class="navbar-list">
 
-          <li>
+          <!-- <li>
             <a href="#home" class="navbar-link">Home.</a>
-          </li>
+          </li> -->
 
-          <li>
+          <!-- <li>
             <a href="#about" class="navbar-link">About.</a>
+          </li> -->
+
+          <li>
+            <a href="#skills" class="navbar-link">技能</a>
           </li>
 
           <li>
-            <a href="#skills" class="navbar-link">Skills.</a>
+            <a href="#portfolio" class="navbar-link">作品</a>
           </li>
 
-          <li>
-            <a href="#portfolio" class="navbar-link">Portfolio.</a>
-          </li>
-
-          <li>
+          <!-- <li>
             <a href="#contact" class="navbar-link">Contact.</a>
-          </li>
+          </li> -->
 
         </ul>
       </nav>
@@ -99,7 +101,7 @@
         - #HERO
       -->
 
-      <section class="hero" id="home">
+      <!-- <section class="hero" id="home">
 
         <figure class="hero-banner">
 
@@ -150,7 +152,7 @@
 
         <a href="#stats" class="scroll-down">Scroll</a>
 
-      </section>
+      </section> -->
 
 
 
@@ -160,7 +162,7 @@
         - #STATS
       -->
 
-      <section class="stats" id="stats">
+      <!-- <section class="stats" id="stats">
         <ul class="stats-list">
 
           <li>
@@ -212,7 +214,7 @@
           </li>
 
         </ul>
-      </section>
+      </section> -->
 
 
 
@@ -222,7 +224,7 @@
         - #ABOUT
       -->
 
-      <section class="about" id="about">
+      <!-- <section class="about" id="about">
 
         <figure class="about-banner">
           <img src="./assets/images/about-banner.png" alt="A man in a alice blue shirt with a thinking expression"
@@ -252,7 +254,7 @@
 
         </div>
 
-      </section>
+      </section> -->
 
 
 
@@ -268,18 +270,16 @@
 
           <p class="section-subtitle">My skills</p>
 
-          <h2 class="h3 section-title">What My Programming Skills Included?</h2>
+          <h2 class="h3 section-title">我的技能</h2>
 
           <p class="section-text">
-            I develop simple, intuitive and responsive user interface that helps users get things done with less effort
-            and time
-            with those technologies.
+            使用这些技术，开发简单、直观、敏捷、响应式的用户界面和服务器后端，给用户带来更高效舒适的体验。
           </p>
 
           <div class="skills-toggle" data-toggle-box>
-            <button class="toggle-btn active" data-toggle-btn>Skills</button>
+            <button class="toggle-btn active" data-toggle-btn>技能</button>
 
-            <button class="toggle-btn" data-toggle-btn>Tools</button>
+            <button class="toggle-btn" data-toggle-btn>工具</button>
           </div>
 
         </div>
@@ -293,7 +293,7 @@
                 <div class="tooltip">HTML5</div>
 
                 <div class="card-icon">
-                  <img src="./assets/images/html5.png" alt="HTML5 logo">
+                  <img src="assets/images/skill-logos/html5.png" alt="HTML5 logo">
                 </div>
               </div>
             </li>
@@ -303,7 +303,7 @@
                 <div class="tooltip">CSS3</div>
 
                 <div class="card-icon">
-                  <img src="./assets/images/css3.png" alt="CSS3 logo">
+                  <img src="assets/images/skill-logos/css3.png" alt="CSS3 logo">
                 </div>
               </div>
             </li>
@@ -313,57 +313,27 @@
                 <div class="tooltip">JavaScript</div>
 
                 <div class="card-icon">
-                  <img src="./assets/images/javascript.png" alt="JavaScript logo">
+                  <img src="assets/images/skill-logos/javascript.png" alt="JavaScript logo">
                 </div>
               </div>
             </li>
 
             <li>
               <div class="skill-card">
-                <div class="tooltip">TypeScript</div>
+                <div class="tooltip">Node.js</div>
 
                 <div class="card-icon">
-                  <img src="./assets/images/typescript.png" alt="TypeScript logo">
+                  <img src="assets/images/skill-logos/nodejs.png" alt="Node.js logo">
                 </div>
               </div>
             </li>
 
             <li>
               <div class="skill-card">
-                <div class="tooltip">jQuery</div>
+                <div class="tooltip">Express.js</div>
 
                 <div class="card-icon">
-                  <img src="./assets/images/jquery.png" alt="jQuery logo">
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">Bootstrap</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/bootstrap.png" alt="Bootstrap logo">
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">Angular</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/angular.png" alt="Angular logo">
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">React</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/react.png" alt="React logo">
+                  <img src="assets/images/skill-logos/node-js.png" alt="Express.js logo">
                 </div>
               </div>
             </li>
@@ -373,37 +343,47 @@
                 <div class="tooltip">Vue</div>
 
                 <div class="card-icon">
-                  <img src="./assets/images/vue.png" alt="Vue logo">
+                  <img src="assets/images/skill-logos/vue.png" alt="Vue logo">
                 </div>
               </div>
             </li>
 
             <li>
               <div class="skill-card">
-                <div class="tooltip">Firebase</div>
+                <div class="tooltip">Java</div>
 
                 <div class="card-icon">
-                  <img src="./assets/images/firebase.png" alt="Firebase logo">
+                  <img src="assets/images/skill-logos/java-coffee-cup-logo--v1.png" alt="Java logo">
                 </div>
               </div>
             </li>
 
             <li>
               <div class="skill-card">
-                <div class="tooltip">PugJs</div>
+                <div class="tooltip">LNMP</div>
 
                 <div class="card-icon">
-                  <img src="./assets/images/pugjs.png" alt="PugJs logo">
+                  <img src="assets/images/skill-logos/lnmp.png" alt="LNMP logo">
                 </div>
               </div>
             </li>
 
             <li>
               <div class="skill-card">
-                <div class="tooltip">SASS</div>
+                <div class="tooltip">Linux</div>
 
                 <div class="card-icon">
-                  <img src="./assets/images/sass.png" alt="SASS logo">
+                  <img src="assets/images/skill-logos/linux.png" alt="Linux logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Cloudflare</div>
+
+                <div class="card-icon">
+                  <img src="assets/images/skill-logos/cloudflare.png" alt="Cloudflare logo">
                 </div>
               </div>
             </li>
@@ -417,17 +397,7 @@
                 <div class="tooltip">Ajax</div>
 
                 <div class="card-icon">
-                  <img src="./assets/images/ajax.png" alt="Ajax logo">
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">Gulp</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/gulp.png" alt="Gulp logo">
+                  <img src="assets/images/skill-logos/ajax.png" alt="Ajax logo">
                 </div>
               </div>
             </li>
@@ -437,7 +407,7 @@
                 <div class="tooltip">Webpack</div>
 
                 <div class="card-icon">
-                  <img src="./assets/images/webpack.png" alt="Webpack logo">
+                  <img src="assets/images/skill-logos/webpack.png" alt="Webpack logo">
                 </div>
               </div>
             </li>
@@ -447,7 +417,17 @@
                 <div class="tooltip">Git</div>
 
                 <div class="card-icon">
-                  <img src="./assets/images/git.png" alt="Git logo">
+                  <img src="assets/images/skill-logos/git.png" alt="Git logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">GitHub</div>
+
+                <div class="card-icon">
+                  <img src="assets/images/skill-logos/github.png" alt="GitHub logo">
                 </div>
               </div>
             </li>
@@ -457,17 +437,17 @@
                 <div class="tooltip">Npm</div>
 
                 <div class="card-icon">
-                  <img src="./assets/images/npm.png" alt="Npm logo">
+                  <img src="assets/images/skill-logos/npm.png" alt="Npm logo">
                 </div>
               </div>
             </li>
 
             <li>
               <div class="skill-card">
-                <div class="tooltip">Command Line</div>
+                <div class="tooltip">Shell</div>
 
                 <div class="card-icon">
-                  <img src="./assets/images/command.png" alt="Command Line logo">
+                  <img src="assets/images/skill-logos/command.png" alt="Shell logo">
                 </div>
               </div>
             </li>
@@ -477,57 +457,37 @@
                 <div class="tooltip">VS Code</div>
 
                 <div class="card-icon">
-                  <img src="./assets/images/vs-code.png" alt="VS Code logo">
+                  <img src="assets/images/skill-logos/vs-code.png" alt="VS Code logo">
                 </div>
               </div>
             </li>
 
             <li>
               <div class="skill-card">
-                <div class="tooltip">Trello</div>
+                <div class="tooltip">IDEA</div>
 
                 <div class="card-icon">
-                  <img src="./assets/images/trello.png" alt="Trello logo">
+                  <img src="assets/images/skill-logos/idea.png" alt="IDEA logo">
                 </div>
               </div>
             </li>
 
             <li>
               <div class="skill-card">
-                <div class="tooltip">ClickUp</div>
+                <div class="tooltip">MongoDB</div>
 
                 <div class="card-icon">
-                  <img src="./assets/images/clickup.png" alt="ClickUp logo">
+                  <img src="assets/images/skill-logos/mongodb.png" alt="MongoDB logo">
                 </div>
               </div>
             </li>
 
             <li>
               <div class="skill-card">
-                <div class="tooltip">Slack</div>
+                <div class="tooltip">MySQL</div>
 
                 <div class="card-icon">
-                  <img src="./assets/images/slack.png" alt="Slack logo">
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">Photoshop</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/photoshop.png" alt="Photoshop logo">
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="skill-card">
-                <div class="tooltip">Adobe XD</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/adobe-xd.png" alt="Adobe XD logo">
+                  <img src="assets/images/skill-logos/mysql.png" alt="MySQL logo">
                 </div>
               </div>
             </li>
@@ -555,28 +515,27 @@
 
               <p class="section-subtitle">My Works</p>
 
-              <h2 class="h3 section-title">See My Works Which Will Amaze You!</h2>
+              <h2 class="h3 section-title">我开发的项目</h2>
 
               <p class="section-text">
-                We develop the best quality website that serves for the long-term. Well-documented, clean, easy and
-                elegant interface
-                helps any non-technical clients.
+                开发过的项目，包括开源软件，网站，闭源的小工具等等。<br>
+                都遵循了强迫症的我对干净简单的设计和代码的追求。
               </p>
 
             </div>
           </li>
 
           <li>
-            <a href="#" class="project-card">
+            <a href="https://github.com/TomyJan/Yunzai-Kuro-Plugin" class="project-card">
 
               <figure class="card-banner">
                 <img src="./assets/images/project-1.png" class="w-100" alt="A macintosh on a yellow background.">
               </figure>
 
               <div class="card-content">
-                <h3 class="h4 card-title">Lorem Ipsum Dolor 01</h3>
+                <h3 class="h4 card-title">云崽机器人的库洛插件</h3>
 
-                <time class="publish-date" datetime="2022-04">April 2022</time>
+                <time class="publish-date" datetime="2022-04">2023.07</time>
               </div>
 
             </a>
@@ -699,7 +658,7 @@
         - #CONTACT
       -->
 
-      <section class="contact" id="contact">
+      <!-- <section class="contact" id="contact">
 
         <div class="contact-content section-content">
 
@@ -867,7 +826,7 @@
 
         </form>
 
-      </section>
+      </section> -->
 
     </article>
   </main>
@@ -885,12 +844,12 @@
 
       <p class="h1 logo">
         <a href="#">
-          Jack<span>.</span>
+          TomyJan<span> </span>
         </a>
       </p>
 
       <p class="copyright">
-        &copy; 2022 <a href="#">codewithsadee</a>. All rights reserved
+        Powered by <a href="https://github.com/codewithsadee/jack-portfolio">jack-portfolio</a>
       </p>
 
     </div>

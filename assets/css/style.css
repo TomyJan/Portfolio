@@ -20,7 +20,7 @@
    * colors
    */
 
-  --raw-seinna: hsl(24, 74%, 58%);
+  --raw-seinna: hsl(180, 100%, 43.33%);
   --sizzling-sunrise: hsl(51, 95%, 54%);
   --scarlet: hsl(13, 96%, 47%);
   --black: hsl(0, 0%, 0%);
@@ -441,8 +441,8 @@ body.active { overflow: hidden; }
 .navbar-link::before {
   content: "";
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 88%;
+  transform: translateY(-100%);
   left: 0;
   height: 5px;
   width: 0;
@@ -599,9 +599,9 @@ main { overflow-x: hidden; }
   content: "";
   position: absolute;
   top: 5px;
-  left: 5px;
+  left: 6px;
   bottom: 5px;
-  width: 93px;
+  width: 83px;
   background: var(--raw-seinna);
   border-radius: 100px;
   transition: var(--transition-1);
@@ -609,8 +609,8 @@ main { overflow-x: hidden; }
 }
 
 .skills-toggle.active::before {
-  left: 98px;
-  width: 94px;
+  left: 85px;
+  width: 83px;
 }
 
 .toggle-btn {
@@ -657,6 +657,10 @@ main { overflow-x: hidden; }
 .skill-card:hover .tooltip {
   transform: translateY(0);
   opacity: 1;
+}
+
+.skill-card img {
+  max-width: 48px;
 }
 
 
@@ -874,6 +878,7 @@ textarea.input-field {
 .copyright {
   color: var(--color-secondary);
   line-height: 1.6;
+  margin-right: 60px;
 }
 
 .copyright a {
