@@ -652,6 +652,11 @@ main { overflow-x: hidden; }
   border-radius: var(--radius-12);
   box-shadow: var(--shadow-1);
   cursor: help;
+  transition: transform 0.3s ease;
+}
+
+.skill-card:is(:hover, :focus) {
+  transform: scale(1.15);
 }
 
 .skill-card:hover .tooltip {
@@ -680,6 +685,11 @@ main { overflow-x: hidden; }
   overflow: hidden;
   border-radius: var(--radius-12);
   box-shadow: 2px 4px 6px hsla(0, 0%, 0%, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.project-card:is(:hover, :focus) {
+  transform: scale(1.08);
 }
 
 .project-card::after {
