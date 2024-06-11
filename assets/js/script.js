@@ -1,5 +1,7 @@
 'use strict';
 
+import '../css/style.css';
+
 /**
  * element toggle function
  */
