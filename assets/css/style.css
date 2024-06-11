@@ -878,7 +878,7 @@ textarea.input-field {
 
 .footer {
   background: var(--bg-secondary);
-  padding-block: 20px;
+  padding-block: 16px;
   text-align: center;
   box-shadow: var(--shadow-1);
 }
@@ -888,7 +888,6 @@ textarea.input-field {
 .copyright {
   color: var(--color-secondary);
   line-height: 1.6;
-  margin-right: 60px;
 }
 
 .copyright a {
@@ -1304,7 +1303,7 @@ textarea.input-field {
 
   .footer .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
 
